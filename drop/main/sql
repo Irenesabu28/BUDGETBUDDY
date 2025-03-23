@@ -1,0 +1,15 @@
+postgres=# CREATE DATABASE budget_db;
+CREATE DATABASE
+postgres=# \c budget_db;
+You are now connected to database "budget_db" as user "postgres".
+budget_db=# CREATE TABLE IF NOT EXISTS transactions (
+budget_db(#     id SERIAL PRIMARY KEY,
+budget_db(#     clothing_type TEXT NOT NULL,
+budget_db(#     quantity INTEGER NOT NULL,
+budget_db(#     amount DECIMAL(10,2) NOT NULL,
+budget_db(#     transaction_type TEXT NOT NULL,
+budget_db(#     payment_method TEXT NOT NULL,
+budget_db(#     category TEXT NOT NULL,
+budget_db(#     timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+budget_db(# );
+CREATE TABLE
