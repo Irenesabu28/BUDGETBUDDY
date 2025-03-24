@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-from tkcalendar import DateEntry
 import psycopg2
 import os
 from datetime import datetime
@@ -10,7 +9,8 @@ from queue import Queue
 DB_CONFIG = {
     'host': 'localhost',
     'user': 'your_user',
-    'database': 'budget_db'
+    'password': 'your_password',
+    'database': 'your_database'
 }
 
 class ClothingShopManager:
