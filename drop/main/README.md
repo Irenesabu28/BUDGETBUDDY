@@ -38,3 +38,4 @@ A Python application for tracking income and expenses in a clothing shop.
 - tkcalendar
 - SQLite3 (included with Python)
 - Pillow
+- postgreSQL

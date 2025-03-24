@@ -1,3 +1,0 @@
-tkcalendar==1.6.1
-pillow==9.5.0
-mysql-connector-python==9.2.0
